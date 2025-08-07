@@ -1,0 +1,44 @@
+# Added per kabmoore 2025-01-07
+Title UpToDate (new subscription - 1/1/25)
+URL https://www.uptodate.com/contents/search?unid=^u&srcsys=EZPX83797938
+AllowVars u
+HJ https://www.uptodate.com
+HJ https://www.uptodateonline.com
+HJ uptodate.com
+HJ uptodateonline.com
+HJ utdol.com
+HJ www.uptodate.com
+HJ www.uptodateonline.com
+HJ www.utdol.com
+DJ uptodate.com
+
+Title EBL
+AllowVars u
+EncryptVar u iusoutheastlibrary
+EBLSecret 6315ELYR4882
+URL http://www.ius.eblib.com
+URL http://ius.eblib.com
+DJ eblib.com
+
+# Per Baker & Taylor support, Axis360 stanzas must be at top of file
+RedirectSafe https://ius.axis360.baker-taylor.com
+RedirectSafe https://m.ius.axis360.baker-taylor.com
+T Axis360ius
+URL -Form=post Axis360ius https://ius.axis360.baker-taylor.com/Account/EZProxy
+FormVariable -expr username=session:user
+FormVariable returnPage
+FormVariable returnAction
+FormVariable returnItemID
+FormVariable flag
+FormVariable bookFlag
+FormVariable bookItemID
+FormVariable token
+
+T Axis360 Mobileius
+URL -Form=post Axis360Mobileius https://m.ius.axis360.baker-taylor.com/Account/EZProxy
+FormVariable -expr username=session:user
+FormVariable returnPage
+FormVariable token
+HTTPHeader -global -response -block X-Frame-Options
+
+INCLUDEFILE ../common_stanzas/aacrjournals.txt
