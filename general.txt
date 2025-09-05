@@ -1493,6 +1493,14 @@ NeverProxy cdn.polyfill.io
 NeverProxy cdnjs.cloudflare.com
 AnonymousURL -*
 
+# Added per kabmoore 2025-09-05
+#  No OCLC stanza, just using website URL
+Title Studio Potter Journal
+URL https://studiopotter.org/
+HJ https://studiopotter.org/
+HJ studiopotter.org
+DJ studiopotter.org
+
 Title Swank Digital Campus (updated 20200515)
 # Updated 5/22/20 based on OCLC Database Stanza for Swank Digital Campus (updated 20200515)
 # Temporary paid access through 6/30/2020
