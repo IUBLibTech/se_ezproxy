@@ -175,3 +175,10 @@ HJ iopscience.org
 DJ iopscience.org
 DJ iop.org
 DJ ioppublishing.org
+
+# Added per ralight 2025-11-17
+# Stanza added to reduce needhost errors to non-subscribed resource
+Title Sistema de Información Científica Redalyc
+URL https://www.redalyc.org/home.oa
+HJ www.redalyc.org
+DJ redalyc.org
