@@ -636,20 +636,6 @@ URL http://pld.chadwyck.co.uk
 HJ pld.chadwyck.co.uk
 HJ pld.chadwyck.com
 
-
-# Updated per ralight 2023-01-10
-Title CQ Researcher  (updated 20230106)
-URL http://library.cqpress.com/cqresearcher/
-HJ library.cqpress.com
-# Additional https HJ added, not included in OCLC stanza
-HJ https://library.cqpress.com
-DJ library.cqpress.com
-DJ cqpress.com
-Find &url=http://
-Replace &url=http://^A
-Find &url=https://
-Replace &url=https://^A
-
 Title CultureGrams
 URL https://online.culturegrams.com
 HJ  http://online.culturegrams.com
