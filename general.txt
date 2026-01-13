@@ -1229,7 +1229,7 @@ HJ https://secure.taylorandfrancis.com
 HJ secure.taylorandfrancis.com
 DJ taylorandfrancis.com
 DJ taylorfrancis.com
-NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1.amazonaws.com
+NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1..com
 Find http-equiv="Content-Security-Policy"
 Replace http-equiv="X-Content-Security-Policy"
 Find "url":"https:\/\/taylorfrancis.com\/
@@ -1423,16 +1423,6 @@ HJ www.uptodateonline.com
 HJ www.utdol.com
 DJ uptodate.com
 
-
-Title USMLE easy
-# This is not in the OCLC Database Stanzas as of 8/29/18
-# I did not add this to our website or IUCAT based on recommendation from Gabrielle
-URL https://new.usmle-easy.com/institution
-URL https://new.usmle-easy.com/institution?encInsId=NDUzMjQyMzAx
-DJ s3.amazonaws.com
-DJ usmle-Easy.com
-DJ paeasy.com
-DJ mheducation.com
 
 Title Value Line
 # OCLC has a different stanza (last updated 2014-11-24) but uses a different starting URL that does not work for us (as of 8/29/18)
