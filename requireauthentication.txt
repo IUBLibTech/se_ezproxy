@@ -42,3 +42,4 @@ FormVariable token
 HTTPHeader -global -response -block X-Frame-Options
 
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
+INCLUDEFILE ../common_stanzas/mathscinet.txt
