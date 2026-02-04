@@ -459,13 +459,7 @@ URL http://www.dlib.indiana.edu/collections/dido/
 HJ dido.dlib.indiana.edu
 DJ dlib.indiana.edu
 
-Title DOI System
-# Added 08/17/2018 based on OCLC Stanza for DOI System (updated 2016-05-09)
-URL http://doi.org
-Host https://doi.org
-Host dx.doi.org
-Host https://dx.doi.org
-Domain doi.org
+# DOI system moved to common stanza
 
 # Title ebrary
 # See stanza below Proquest
@@ -1070,11 +1064,6 @@ H digitalcampus.swankmp.net
 H https://permalinks.swankmp.net
 D swankmp.net
 
-Title Taylor & Francis (updated 20180806)
-# Updated 08/17/2018 based on OCLC Stanza for Taylor & Francis (updated 2018-08-06)
-Title -hide DOI System (updated 20180302)
-URL http://dx.doi.org
-Domain doi.org
 
 # Updated per ralight 2026-01-09
 ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
