@@ -817,14 +817,7 @@ NeverProxy ebookcentral.proquest.com
 NeverProxy ius.ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
-Title Psychotherapy.net (updated 20200824)
-URL https://www.psychotherapy.net/stream/ius
-# Updated 8/28/20 based on OCLC stanza for Psychotherapy.net (updated 20200824)
-HJ www.psychotherapy.net
-HJ https://p3.3playmedia.com
-DJ psychotherapy.net
-NeverProxy player.vimeo.com
-NeverProxy cdnapisec.kaltura.com
+# Psychotherapy.net moved to common stanza
 
 ProxyHostnameEdit www.ncbi.nlm.nih.gov$ www-ncbi-nlm-nih-gov
 ProxyHostnameEdit pubmed.ncbi.nlm.nih.gov$ pubmed-ncbi-nlm-nih-gov
