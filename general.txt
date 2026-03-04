@@ -497,9 +497,6 @@ HJ https://files.eric.ed.gov
 HJ files.eric.ed.gov
 DJ eric.ed.gov
 
-# Title FirstSearch 
-# See stanza OCLC FirstSearch
-
 Title Foundation Center
 # Updated 4/9/19 (added 9/19/2017)
 URL https://fconline.foundationcenter.org/ipl.php
@@ -741,13 +738,7 @@ D ezmyaccount.nytimes.com
 
 # Newsbank/Readex Databases moved to common_stanza
 
-Title OCLC FirstSearch (updated 20180824)
-# Updated 8/29/2018 based on OCLC Stanza for OCLC FirstSearch (updated 2018-08-24)
-URL https://firstsearch.oclc.org/FSIP
-HJ http://firstsearch.oclc.org
-HJ newfirstsearch.oclc.org
-HJ https://newfirstsearch.oclc.org
-DJ oclc.org
+# OCLC FirstSearch moved to common_stanza
 
 Title Wolters Kluwer
 URL https://login.wolterskluwer.com
