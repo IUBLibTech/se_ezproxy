@@ -675,24 +675,7 @@ HJ www.learningexpresslibrary3.com
 DJ learningexpresslibrary3.com
 DJ learningexpresshub.com
 
-# Updated per ralight 2023-03-02
-# Access is for JAMA Facial Plastic Surgery, 1999-2019, and its previous title, Archives of facial plastic surgery
-T Liebert (updated 20230223)
-U https://www.liebertpub.com
-HJ home.liebertpub.com
-HJ https://home.liebertpub.com
-HJ https://liebertonline.com
-HJ https://liebertpub.com
-HJ https://mal.scienceconnect.io
-HJ https://online.liebertpub.com
-HJ https://www.liebertonline.com
-HJ liebertonline.com
-HJ liebertpub.com
-HJ mal.scienceconnect.io
-HJ online.liebertpub.com
-HJ www.liebertonline.com
-HJ www.liebertpub.com
-DJ liebertpub.com
+# Liebert moved to common_stanza
 
 # MathSciNet moved to common_stanzas
 
