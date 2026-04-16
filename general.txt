@@ -31,28 +31,7 @@ DJ searchanddiscovery.com
 # Title AccessSurgery
 # See stanza McGraw-Hill Medical
 
-# Title ACS
-# See stanza below, American Chemical Society
-
-Title American Chemical Society
-# updated 5/14/2018 based on OCLC Stanza Stanza for American Chemical Society (updated 2017-01-04)
-URL http://pubs.acs.org
-HJ acs.org
-HJ cenglobal.acs.org
-HJ https://cenglobal.acs.org
-HJ https://pubs.acs.org
-HJ pubs.acs.org
-HJ www.acs.org
-HJ www.chemistry.org
-HJ www.pubs.acs.org
-DJ acs.org
-Find hostdev="pubsdev.acs.org"
-Replace hostdev="^ppubsdev.acs.org^"
-Find hosttest="pubstest.acs.org"
-Replace hosttest="^ppubstest.acs.org^"
-Find hostprod="pubs.acs.org"
-Replace hostprod="^ppubs.acs.org^"
-
+# American Chemical Society moved to common stanza
 
 # Title American City Business Journals
 # See stanza Title BizJournals, American City Business Journals, Business First of Louisville
