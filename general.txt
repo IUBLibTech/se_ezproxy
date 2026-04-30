@@ -85,24 +85,7 @@ NeverProxy library.stanford.edu
 NeverProxy stor.artstor.org
 AnonymousUrl -*
 
-Title BioOne (OCLC include file updated 20181214)
-# updated 9/26/19 based on OCLC Database Stanza for BioOne (updated 2018-12-14)
-URL http://www.bioone.org/
-Host bioone.org
-Domain bioone.org
-Host 65.245.134.215
-
-Title BioOne Complete (launched 20190816)
-# updated 9/26/19 based on OCLC Database Stanza for BioOne Complete (launched 2019-08-16)
-URL https://www.bioone.org/
-HJ www.bioone.org
-HJ https://www.bioone.org/
-HJ preview.bioone.org
-HJ https://preview.bioone.org
-HJ https://bioone.org
-HJ bioone.org
-DJ bioone.org 
-
+# BioOne Complete moved to common stanza
 Title CultureGrams (Updated 20180207)
 URL http://online.culturegrams.com
 HJ https://online.culturegrams.com
@@ -492,67 +475,9 @@ DJ maps.foundationcenter.org/
 DJ gtionline.foundationcenter.org/
 DJ foundationcenter.org
 
-# Updated per ralight 2022-07-07
-Title Fulcrum (updated 20180731)
-URL https://www.fulcrum.org
-HJ hdl.handle.net
-HJ https://hdl.handle.net
-HJ www.fulcrum.org
-HJ https://www.fulcrum.org
-HJ fulcrum.org
-HJ https://fulcrum.org
-DJ fulcrum.org 
+# Fulcrum moved to common stanza
 
-# Updated per ralight 2022-10-14
-Title Google Scholar (Updated 20221007)
-URL http://scholar.google.com
-Host https://scholar.google.com
-Host scholar.google.com.au
-Host https://scholar.google.com.au
-Host scholar.google.ca
-Host https://scholar.google.ca
-Host scholar.google.de
-Host https://scholar.google.de
-Host scholar.google.fi
-Host https://scholar.google.fi
-Host scholar.google.com.hk
-Host https://scholar.google.com.hk
-Host scholar.google.nl
-Host https://scholar.google.nl
-Host scholar.google.co.nz
-Host https://scholar.google.co.nz
-Host scholar.google.co.uk
-Host https://scholar.google.co.uk
-Host scholar.google.se
-Host https://scholar.google.se
-Host scholar.google.co.za
-Host https://scholar.google.co.za
-Host www.scholar.google.com
-Host https://scholar.google.ae
-Host scholar.google.ae
-Host https://scholar.google.be
-Host scholar.google.be
-Host https://scholar.google.it
-Host scholar.google.it
-
-Title Highwire Press (updated 20230110)
-URL https://www.highwirepress.com/
-HJ highwire.org
-HJ highwire.stanford.edu
-HJ highwirepress.com
-HJ home.highwire.org
-HJ https://highwirepress.com
-HJ https://plato.stanford.edu
-HJ https://www.highwire.org
-HJ https://www.highwirepress.com
-HJ openurl.highwire.org
-HJ plato.stanford.edu
-HJ www.highwire.org
-HJ www.highwirepress.com
-HJ https://portal.highwire.org
-HJ portal.highwire.org
-DJ highwirepress.com
-DJ stanford.edu
+# Google Scholar moved to common stanza
 
 Title Homeland Security Digital Library
 # This is not in the OCLC Database Stanzas as of 8/29/18
@@ -603,8 +528,7 @@ DJ ibisworld.ca
 DJ procurementiq.com
 AnonymousURL -*
 
-# Title JAMAevidence 
-# See stanza McGraw-Hill Medical
+# INSPIRE moved to common stanza
 
 Title Journal on Excellence in College Teaching (updated 20200221)
 URL http://miamioh.edu/ject
@@ -730,16 +654,7 @@ DJ pdcnet.org
 Find var urlNeu=urlAlt.replace(/http:/, "https:");
 Replace var urlNeu=urlAlt.replace(/http:\/\/www.pdcnet.org.*?(\/.*)$/, "https://^swww.pdcnet.org^$1"); 
 
-Option DomainCookieOnly
-Title Project Muse (updated 20190905)
-# updated 9/26/19 based on OCLC Database Stanza for Project Muse (updated 2019-09-05)
-URL http://muse.jhu.edu/
-HJ https://muse.jhu.edu
-HJ http://www.muse.jhu.edu
-HJ muse.uq.edu.au
-HJ https://muse.uq.edu.au
-DJ muse.jhu.edu
-Option Cookie 
+# Project Muse moved to common stanza
 
 # Updated per ralight 2023-10-06
 Title Ebook Central Proxied
@@ -858,12 +773,10 @@ NeverProxy fonts.google.com
 NeverProxy googletagmanager.com
 AnonymousURL -*
 
-Title Teaching Books for Libraries 
-# Updated 5/29/24 to include Book Connections
-URL https://library.teachingbooks.net/ 
-HJ library.teachingbooks.net 
-HJ https://library.teachingbooks.net
-HJ https://www.bookconnections.org
+# TeachingBooks moved to common stanza
+
+Title Book Connections
+URL https://www.bookconnections.org
 HJ bookconnections.org
 HJ www.bookconnections.org
 HJ https://www.bookconnections.org
@@ -1042,15 +955,7 @@ HJ www.uptodateonline.com
 HJ www.utdol.com
 DJ uptodate.com
 
-
-Title Value Line
-# OCLC has a different stanza (last updated 2014-11-24) but uses a different starting URL that does not work for us (as of 8/29/18)
-URL https://research.valueline.com/secure/dashboard
-URL http://www3.valueline.com
-HJ research.valueline.com
-HJ www.valueline.com
-HJ jump.valueline.com
-DJ valueline.com
+# Value Line moved to common stanza
 
 AnonymousURL +https://api.wileydigitalarchives.com/*
 Title Wiley Digital Archives
