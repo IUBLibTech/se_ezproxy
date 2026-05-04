@@ -42,4 +42,5 @@ FormVariable token
 HTTPHeader -global -response -block X-Frame-Options
 
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
+INCLUDEFILE ../common_stanzas/candid.txt
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
