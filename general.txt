@@ -9,16 +9,7 @@
 
 ############################### END TRIAL/TEMPORARY STANZAS ###############################
 
-# Updated to https per ralight 2022-07-29
-Title AAPG Datapages
-URL https://archives.datapages.com/
-HJ http://archives.datapages.com/
-HJ search.datapages.com
-HJ www.aapg.org
-HJ www.searchanddiscovery.com
-DJ datapages.com
-DJ aapg.org
-DJ searchanddiscovery.com
+# AAPG Datapages moved to common stanza
 
 # Title AccessAnesthesiology
 # See stanza McGraw-Hill Medical
@@ -942,35 +933,9 @@ HJ www.oxfordscholarship.com
 DJ oxfordscholarship.com
 DJ universitypressscholarship.com
 
-Title UpToDate
-# This is not in the OCLC Database Stanzas as of 8/29/18
-URL http://www.uptodate.com
-HJ https://www.uptodate.com
-HJ https://www.uptodateonline.com
-HJ uptodate.com
-HJ uptodateonline.com
-HJ utdol.com
-HJ www.uptodate.com
-HJ www.uptodateonline.com
-HJ www.utdol.com
-DJ uptodate.com
-
 # Value Line moved to common stanza
 
-AnonymousURL +https://api.wileydigitalarchives.com/*
-Title Wiley Digital Archives
-# Added 5/24/2018 based on email from Ruth Light
-URL https://app.wileydigitalarchives.com/
-HJ https://app.wileydigitalarchives.com
-HJ https://api.wileydigitalarchives.com
-NeverProxy content.wileydigitalarchives.com
-NeverProxy ajax.googleapis.com
-NeverProxy cdnjs.cloudflare.com
-NeverProxy fonts.googleapis.com
-NeverProxy fonts.gstatic.com
-NeverProxy js.zapjs.com
-NeverProxy maxcdn.bootstrapcdn.com
-AnonymousURL -*
+#  Wiley Digital Archives moved to common stanza
 
 Title WMS
 HTTPHeader -request -process timezone
