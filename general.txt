@@ -275,15 +275,7 @@ HJ c19index.chadwyck.co.uk
 HJ c19index.chadwyck.com
 HJ https://c19index.chadwyck.com
 
-Title CIC E-Publishing Venture
-URL http://name.umdl.umich.edu
-HJ https://name.umdl.umich.edu
-HJ name.umdl.umich.edu
-HJ https://quod.lib.umich.edu/
-HJ http://quod.lib.umich.edu/
-HJ quod.lib.umich.edu/
-HJ https://hdl.handle.net
-HJ https://hdl.lib.umich.edu
+# CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
 
 Title -hide Monthly Catalog of US Government publications, 1895-1976
 URL http://monthlycatalog.chadwyck.com
@@ -563,17 +555,8 @@ D kanopy.com
 
 # MathSciNet moved to common_stanzas
 
+# Scientific American moved to common stanza: scientific-american.txt
 
-# Scientific American is published by Nature Publishing
-Title Scientific American (updated 20190531)
-# updated 6/11/19 based on OCLC Database Stanza for Scientific American (updated 2019-05-31) with some modification
-URL https://www.scientificamerican.com/
-HJ https://www.scientificamerican.com
-HJ http://www.scientificamerican.com/
-HJ https://www.sciam.com
-HJ http://www.sciam.com
-DJ sciam.com
-DJ scientificamerican.com
 
 # Updated per ralight 2025-06-04
 Title Naxos Music Library (updated 20250530)
@@ -702,13 +685,7 @@ HJ https://studiopotter.org/
 HJ studiopotter.org
 DJ studiopotter.org
 
-Title Swank Digital Campus (updated 20200515)
-# Updated 5/22/20 based on OCLC Database Stanza for Swank Digital Campus (updated 20200515)
-# Temporary paid access through 6/30/2020
-URL https://digitalcampus.swankmp.net/
-H digitalcampus.swankmp.net
-H https://permalinks.swankmp.net
-D swankmp.net
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
 
 
 # Updated per ralight 2026-01-09
@@ -944,15 +921,7 @@ URL https://973.account.worldcat.org/account/route/wsill/openurl?
 HJ http://973.account.worldcat.org/account/route/wsill/openurl?
 DJ account.worldcat.org
 
-Cookie ezproxy_s=1; domain=.worldcat.org
-T OCLC WorldCat.org (updated 20231107)
-U https://search.worldcat.org
-HJ https://search.worldcat.org
-HJ https://www.worldcat.org
-HJ https://worldcat.org
-HJ www.worldcat.org
-HJ search.worldcat.org
-DJ worldcat.org
+# OCLC WorldCat.org moved to common stanza: worldcat-org.txt
 
 Title WorldShare ILL Form (Added 20230814)
 HTTPHeader -request -process timezone
