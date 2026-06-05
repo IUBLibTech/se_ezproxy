@@ -433,14 +433,7 @@ Replace redirect_uri=https://^A
 
 # See stanza Britannica Academic 
 
-Title ERIC (OCLC IncludeFile updated 20230512)
-URL https://eric.ed.gov
-HJ eric.ed.gov
-HJ https://eric.ed.gov
-HJ www.eric.ed.gov
-HJ https://files.eric.ed.gov
-HJ files.eric.ed.gov
-DJ eric.ed.gov
+# ERIC moved to common stanza: eric-gov.txt
 
 Title Foundation Center
 # Updated 4/9/19 (added 9/19/2017)
