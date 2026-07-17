@@ -574,11 +574,7 @@ NeverProxy videostream2.naxosmusiclibrary.com
 ## Naxos Music Library Aux Audio CDN Location
 NeverProxy cp82361.edgefcs.net
 
-Title Access NYT (OCLC IncludeFile updated 20230218)
-URL https://ezmyaccount.nytimes.com/group-pass
-H ezmyaccount.nytimes.com
-D ezmyaccount.nytimes.com
-
+# Access NYT moved to common stanza: access-nyt.txt
 # Newsbank/Readex Databases moved to common_stanza
 
 # OCLC FirstSearch moved to common_stanza
@@ -659,12 +655,7 @@ H reprintsdesk.com
 # Title SCOPUS
 # See stanza Elsevier SCOPUS
 
-# Added & modified per ralight 2022-08-26
-# Stanza added to improve IUCAT experience
-Title Skillport8i
-NeverProxy iu.skillport.com
-NeverProxy https://iu.skillport.com
-NeverProxy https://skillport.iu.edu
+# Skillport8i moved to common stanza: skillport8i.txt
 
 #This stanza is required to resolve the Cookie Banner popup issue IncludeFile databases/cookielaw.txt
 
@@ -679,61 +670,8 @@ HJ studiopotter.org
 DJ studiopotter.org
 
 # Swank Digital Campus moved to common stanza: swank-digital-campus.txt
-
-
-# Updated per ralight 2026-01-09
-ProxyHostnameEdit www.tandfonline.com$ www-tandfonline-com
-Title Taylor & Francis (updated 20190318)
-HTTPHeader -request -process Access-Token
-URL https://www.tandfonline.com
-HJ http://www.tandfonline.com
-HJ journalsonline.tandf.co.uk
-HJ afs.tandfonline.com
-HJ amstat.tandfonline.com
-HJ tandfonline.com
-HJ www.journalsonline.tandf.co.uk
-DJ tandfonline.com
-HJ tandfprod.literatumonline.com
-HJ https://tandfonline.com
-DJ literatumonline.com
-
-AnonymousURL +https://api.taylorandfrancis.com/*
-AnonymousURL +https://api.taylorfrancis.com/*
-AnonymousURL +https://events.taylorandfrancis.com/*
-AnonymousURL +https://secure.taylorandfrancis.com/*
-AnonymousURL +https://secure.taylorfrancis.com/*
-Title Taylor Francis eBooks (updated 20210702)
-# Updated 7/15/21 based on OCLC Database Stanza for Taylor Francis eBooks (updated 20210702)
-HTTPHeader -request -process authtoken
-HTTPHeader -request -process Origin
-URL https://www.taylorfrancis.com
-HJ www.taylorfrancis.com
-HJ https://taylorfrancis.com
-HJ taylorfrancis.com
-HJ https://api.taylorandfrancis.com
-HJ api.taylorandfrancis.com
-HJ https://api.taylorfrancis.com
-HJ api.taylorfrancis.com
-HJ https://events.taylorandfrancis.com
-HJ events.taylorandfrancis.com
-HJ https://accounts.taylorfrancis.com
-HJ accounts.taylorfrancis.com
-HJ https://secure.taylorfrancis.com
-HJ secure.taylorfrancis.com
-HJ https://secure.taylorandfrancis.com
-HJ secure.taylorandfrancis.com
-DJ taylorandfrancis.com
-DJ taylorfrancis.com
-NeverProxy s3-euw1-ap-pe-ws4-capi2-distribution-p.s3-eu-west-1..com
-Find http-equiv="Content-Security-Policy"
-Replace http-equiv="X-Content-Security-Policy"
-Find "url":"https:\/\/taylorfrancis.com\/
-Replace "url":"https:\/\/^staylorfrancis.com^\/
-NeverProxy api.google.com
-NeverProxy fonts.google.com
-NeverProxy googletagmanager.com
-AnonymousURL -*
-
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
+# Taylor Francis eBooks moved to common stanza: taylor-francis-ebooks.txt
 # TeachingBooks moved to common stanza
 
 Title Book Connections
@@ -752,26 +690,7 @@ HJ https://online.ucpress.edu
 HJ online.ucpress.edu
 DJ ucpress.edu
 
-Option DomainCookieOnly
-T University of Chicago Press Journals (OCLC IncludeFile updated 20220810)
-U http://www.journals.uchicago.edu
-HJ artfl-project.uchicago.edu
-HJ cjtcs.cs.uchicago.edu
-HJ el.press.uchicago.edu
-HJ https://artfl-project.uchicago.edu
-HJ https://el.press.uchicago.edu
-HJ https://journals.uchicago.edu
-HJ https://www.journals.uchicago.edu
-HJ humanities.uchicago.edu
-HJ journals.uchicago.edu
-HJ letterpress.uchicago.edu
-HJ lib.uchicago.edu
-HJ press.uchicago.edu
-HJ www.journals.uchicago.edu
-HJ www.lib.uchicago.edu
-HJ www.press.uchicago.edu
-DJ uchicago.edu
-Option Cookie
+# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 
 Title University of Illinois Press (updated 20200505)
 # Updated 5/7/20 based on OCLC Stanza for University of Illinois Press (updated 2020-05-05)
