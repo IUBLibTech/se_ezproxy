@@ -680,15 +680,7 @@ HJ bookconnections.org
 HJ www.bookconnections.org
 HJ https://www.bookconnections.org
 
-Title University of California Press (updated 20210615)
-URL https://online.ucpress.edu
-HJ https://www.ucpress.edu
-HJ https://ucpress.edu
-HJ www.ucpress.edu
-HJ http://online.ucpress.edu
-HJ https://online.ucpress.edu
-HJ online.ucpress.edu
-DJ ucpress.edu
+# University of California Press moved to common stanza: university-california-press.txt
 
 # University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
 
