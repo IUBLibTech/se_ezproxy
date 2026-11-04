@@ -406,32 +406,7 @@ DJ dlib.indiana.edu
 
 # DOI system moved to common stanza
 
-# Title ebrary
-# See stanza below Proquest
-
-# Title Elseiver Reaxys
-# See stanza Reaxys
-
-Title Scholarly Publishing Collective (updated 20211013)
-# Added 10/26/21 based on email from Scholarly Publishing Collection. See also Duke University Press Books and Journals
-# Active sub on this new (2022) platform - American Journal of Psychology
-URL https://scholarlypublishingcollective.org/
-HJ http://scholarlypublishingcollective.org
-HJ scholarlypublishingcollective.org
-DJ scholarlypublishingcollective.org
-
-Title -hide Elsevier Identity
-URL https://id.elsevier.com
-HJ https://id.elsevier.com
-HJ id.elsevier.com
-DJ id.elsevier.com
-Find redirect_uri=https://
-Replace redirect_uri=https://^A
-
-
-# Title Encyclopedia Britannica
-
-# See stanza Britannica Academic 
+# Scholarly Publishing Collective moved to common stanza: scholarly-publishing-collective.txt
 
 # ERIC moved to common stanza: eric-gov.txt
 
