@@ -3,88 +3,20 @@
 
 # TRIALS
 # This section is for any databases we are currently reviewing but have not purchased yet
-# If we decide to purchase, move stanza to the alphabetical list below
+# If we decide to purchase, move stanza to the alphabetical list below or create appropriate common stanza.
+# Trials that do not result in purchase will be removed promptly.
 
 
 
 ############################### END TRIAL/TEMPORARY STANZAS ###############################
 
-# AAPG Datapages moved to common stanza
+# AAPG Datapages moved to common stanza: aapg-datapages.txt
+# Access NYT moved to common stanza: access-nyt.txt
+# AIPP Publishing Platform (formerly Scitation) moved to common stanza: aip-publishing.txt
+# American Chemical Society moved to common stanza: american-chemical-society.txt
+# BioOne Complete moved to common stanza: bioone.txt
 
-# Title AccessAnesthesiology
-# See stanza McGraw-Hill Medical
-
-
-# Title AccessMedicine
-# See stanza McGraw-Hill Medical
-
-
-# Title AccessSurgery
-# See stanza McGraw-Hill Medical
-
-# American Chemical Society moved to common stanza
-
-# Title American City Business Journals
-# See stanza Title BizJournals, American City Business Journals, Business First of Louisville
-
-
-# Title American Institute of Physics 
-# See stanza Scitation
-
-Title American Society of Plant Biologists (ASPB)
-# Added as a stanza on 8/29/18 for Plant Physiology and Plant Cell 
-URL https://aspb.org/
-URL http://www.plantcell.org
-URL http://www.plantphysiol.org
-HJ https://aspb.org/
-HJ plantcell.org
-HJ www.plantcell.org
-HJ plantphysiol.org
-HJ www.plantphysiol.org
-DJ plantcell.org
-DJ plantphysiol.org
-
-# Title Annals of American History
-
-Title ARTstor Digital Library (ADL) (updated 20200807)
-# Updated 8/14/20 based on OCLC Stanza for ArtSTOR updated 20200807)
-HTTPHeader -request -process X-*
-HTTPHeader -request -process Accept-Encoding
-HTTPHeader -request -process Access-Control-Allow-Origin
-HTTPMethod PUT
-HTTPMethod PATCH
-HTTPMethod OPTIONS
-HTTPMethod DELETE
-AnonymousUrl +.jar
-AnonymousUrl +.class
-AnonymousUrl +.gif
-AnonymousUrl +.jpg
-URL https://library.artstor.org
-HJ library.artstor.org
-HJ https://tsprod.artstor.org
-HJ https://mdxdv.artstor.org
-DJ artstor.org
-DJ mdxdv.artstor.org
-Find //tsprod
-Replace https://tsprod
-NeverProxy tsprod.artstor.org
-NeverProxy kaltura.artstor.org
-NeverProxy kts.artstor.org
-NeverProxy viewer.artstor.org
-NeverProxy viewer2.artstor.org
-NeverProxy library.stanford.edu
-NeverProxy stor.artstor.org
-AnonymousUrl -*
-
-# BioOne Complete moved to common stanza
-Title CultureGrams (Updated 20180207)
-URL http://online.culturegrams.com
-HJ https://online.culturegrams.com
-HJ online.culturegrams.com
-HJ https://www.culturegrams.com
-HJ www.culturegrams.com
-DJ culturegrams.com
-
+# Last reviewed by ralight 2026-11-05
 Option CookiePassThrough
 AnonymousURL http://assets.bizjournals.com/*
 Title BizJournals, American City Business Journals, Business First of Louisville
@@ -98,389 +30,51 @@ Replace "//^pwww.bizjournals.com^"
 AnonymousURL -*
 Option Cookie
 
-
-# Title Business First of Louisville
-# See stanza BizJournals, American City Business Journals, Business First of Louisville
-
-Title Chadwyck
-URL http://www.chadwyck.com
-HJ www.chadwyck.com
-DJ chadwyck.com
-HJ www.chadwyck.co.uk
-HJ archives.chadwyck.com
-DJ chadwyck.co.uk
-
-Title -hide Chadwyck African American Biographical Database
-URL http://aabd.chadwyck.com
-HJ aabd.chadwyck.com
-
-Title -hide Chadwyck American Film Institute Catalog
-URL http://afi.chadwyck.com
-HJ afi.chadwyck.com
-HJ afi.chadwyck.co.uk
-
-Title -hide Chadwyck Black Studies Center, Abolitionist Papers, History Makers, and BSC Dissertations
-URL http://bsc.chadwyck.com/
-HJ bsc.chadwyck.com
-HJ bsc.chadwyck.co.uk
-
-Title -hide Chadwyck Colonial State Papers Collection
-URL http://colonial.chadwyck.com/
-HJ colonial.chadwyck.com
-HJ colonial.chadwyck.co.uk
-
-Title -hide Chadwyck Digital National Security Archive
-URL http://nsarchive.chadwyck.com/
-HJ nsarchive.chadwyck.com
-
-Title -hide Chadwyck Early European Books
-URL http://eeb.chadwyck.com
-HJ eeb.chadwyck.com
-HJ eeb.chadwyck.co.uk
-
-Title -hide Chadwyck Early English Books Online
-URL http://eebo.chadwyck.com
-HJ https://eebo.chadwyck.com
-HJ eebo.chadwyck.com
-
-Title -hide Annual Register: a Record of World Events
-URL http://annualregister.chadwyck.co.uk/
-HJ annualregister.chadwyck.co.uk
-HJ annualregister.chadwyck.com
-
-Title -hide Chadwyck FIAF International Index to Film Periodicals
-URL http://fiaf.chadwyck.com/
-HJ fiaf.chadwyck.com
-HJ fiaf.chadwyck.co.uk
-
-Title -hide Chadwyck Film Index International
-URL http://fii.chadwyck.com
-HJ fii.chadwyck.com
-HJ fii.chadwyck.co.uk
-
-Title -hide Chadwyck Film Index Online
-URL http://film.chadwyck.com
-HJ film.chadwyck.com
-HJ film.chadwyck.co.uk
-
-Title -hide Chadwyck Gerritsen's Women's History Collection
-URL http://gerritsen.chadwyck.com
-HJ gerritsen.chadwyck.com
-
-Title -hide Chadwyck Historical Newspapers
-URL http://history.chadwyck.co.uk
-HJ history.chadwyck.co.uk
-
-Title -hide Chadwyck Historical Newspapers Online
-URL http://historynews.chadwyck.com
-HJ historynews.chadwyck.com
-
-Title -hide Chadwyck History Makers
-URL http://historymakers.chadwyck.com
-HJ historymakers.chadwyck.com
-
-Title -hide Chadwyck Paley Center Seminars
-URL http://paley.chadwyck.com/
-HJ paley.chadwyck.com
-
-Title -hide Chadwyck iibp
-URL http://iibp.chadwyck.com
-HJ iibp.chadwyck.com
-
-Title -hide Chadwyck IIMP
-URL http://iimp.chadwyck.com
-HJ iimp.chadwyck.com
-HJ iimp.chadwyck.co.uk
-
-Title -hide Chadwyck IIMP Full Text
-URL http://iimpft.chadwyck.com
-HJ iimpft.chadwyck.com
-HJ iimpft.chadwyck.co.uk
-
-Title -hide Chadwyck IIPA
-URL http://iipa.chadwyck.com
-HJ iipa.chadwyck.com
-HJ iipa.chadwyck.co.uk
-
-Title -hide Chadwyck John Johnson Collection
-URL http://johnjohnson.chadwyck.com/
-HJ johnjohnson.chadwyck.com
-HJ johnjohnson.chadwyck.co.uk
-
-Title -hide Chadwyck Luthers Werke
-URL http://luther.chadwyck.com/
-HJ luther.chadwyck.com
-HJ luther.chadwyck.co.uk
-
-Title -hide Chadwyck Literature Collections
-URL http://collections.chadwyck.com
-HJ collections.chadwyck.com
-HJ collections.chadwyck.co.uk
-Find + sDomain +
-Replace + 'collections.chadwyck.com' +
-
-Title -hide Chadwyck Literature Online
-URL http://lion.chadwyck.com
-HJ lion.chadwyck.com
-HJ lion.chadwyck.co.uk
-
-Title -hide Chadwyck Music
-URL http://music.chadwyck.com
-HJ music.chadwyck.com
-
-Title -hide Chadwyck Nineteenth Century Short Title -hide Catalogue
-URL http://nstc.chadwyck.com/
-HJ nstc.chadwyck.com
-
-Title -hide Chadwyck Patrologia Latina
-URL http://pld.chadwyck.co.uk
-HJ pld.chadwyck.co.uk
-HJ pld.chadwyck.com
-
-Title -hide Chadwyck Periodicals Contents Index
-URL http://pci.chadwyck.com
-HJ pci.chadwyck.com
-
-Title -hide Chadwyck Periodicals Contents Index Full-Text
-URL http://pao.chadwyck.com
-HJ pao.chadwyck.com
-HJ pao.chadwyck.co.uk
-
-Title -hide Chadwyck Periodicals Index Online
-URL http://pio.chadwyck.com
-HJ pio.chadwyck.com
-HJ pio.chadwyck.co.uk
-
-Title -hide Chadwyck Queen Victoria's Journals
-URL http://qvj.chadwyck.com
-HJ qvj.chadwyck.com
-
-Title -hide Chadwyck ProQuest British Periodicals
-URL http://britishperiodicals.chadwyck.co.uk
-DJ britishperiodicals.chadwyck.co.uk
-HJ bp.chadwyck.co.uk
-
-Title -hide Chadwyck FT Archive
-URL http://ft.chadwyck.co.uk
-D ft.chadwyck.co.uk
-
-Title -hide Chadwyck Wellesley Index to Victorian Periodicals
-URL http://wellesley.chadwyck.co.uk
-HJ wellesley.chadwyck.co.uk
-HJ wellesley.chadwyck.com
-
-Title -hide C19:The Nineteenth Century Index
-URL http://c19index.chadwyck.com
-HJ c19index.chadwyck.co.uk
-HJ c19index.chadwyck.com
-HJ https://c19index.chadwyck.com
-
+# BMJ moved to common stanza: bmj.txt
+# Book Connections moved to common stanza: teachingbooks.txt
+# Brill moved to common stanza: brillonline.txt
+# Britannica moved to common stanza: britannicaacademic.txt
+# Cambridge Core moved to common stanza: cambridge_core.txt
+# Chronical of Higher Ed moved to common stanza: chronicle.txt
 # CIC E-publishing Venture moved to common stanza: cic-epublishing-venture.txt
+# Clarivate moved to common stanza: clarivate.txt
+# Cochrane Library moved to common stanza: cochranelibrary.txt
+# Cookie Law moved to common stanza: cookielaw.txt
+# CultureGrams moved to common stanza: proquest.txt
+# De Gruyter moved to common stanza: degruyter.txt
+# Docuseek2 moved to common stanza: docuseek2.txt
+# DOI system moved to common stanza: doi-system.txt
+# Duke University Press moved to common stanza:  duke.txt
 
-Title -hide Monthly Catalog of US Government publications, 1895-1976
-URL http://monthlycatalog.chadwyck.com
-HJ monthlycatalog.chadwyck.com
+# Last reviwed by ralight 2026-11-05
+Title Ebook Central Proxied
+URL https://ebookcentral.proquest.com/lib/ius
+HJ http://ebookcentral.proquest.com/lib/ius
+HJ https://ebookcentral.proquest.com/lib/ius
+DJ ebookcentral.proquest.com
+NeverProxy acs.ebookcentral.proquest.com
 
-Title -hide Acta Sanctorum
-URL http://acta.chadwyck.co.uk
-HJ acta.chadwyck.co.uk
-
-Title -hide Acta Sanctorum
-U http://acta.chadwyck.com
-HJ acta.chadwyck.com
-
-Title -hide Bertolt Brechts Wereke (US)
-URL http://brecht.chadwyck.com
-HJ brecht.chadwyck.com
-
-Title -hide Biografa de la Literatura Expanola
-URL http://ble.chadwyck.com
-HJ ble.chadwyck.com
-
-Title -hide Black Abolitionist Papers
-URL http://bap.chadwyck.com
-HJ bap.chadwyck.com
-
-Title -hide Cecil Papers
-URL http://cecilpapers.chadwyck.com
-HJ cecilpapers.chadwyck.com
-
-Title -hide Die Deutsche Lyrik in Reclams Universal-Bibliothek
-URL http://glp.chadwyck.com
-HJ glp.chadwyck.com
-
-Title -hide Documents on British Policy Overseas
-URL http://dbpo.chadwyck.com
-HJ dbpo.chadwyck.com
-HJ dbpo.chadwyck.co.uk
-
-Title -hide Goethes Werke
-URL http://goethe.chadwyck.com
-HJ goethe.chadwyck.com
-
-Title -hide Kafkas Werke
-URL http://kafka.chadwyck.com
-HJ kafka.chadwyck.com
-
-Title -hide Schillers Werke
-URL http://schiller.chadwyck.com
-HJ schiller.chadwyck.com
-
-Title -hide Teatro Espanol del Siglo de Oro
-URL http://teso.chadwyck.com
-HJ teso.chadwyck.com
-HJ teso.chadwyck.co.uk
-Title Chadwyck Acta Sanctorum
-URL http://acta.chadwyck.com/
-HJ acta.chadwyck.com
-
-Title Chadwyck Bertolt Brechts Werke
-URL http://brecht.chadwyck.com/
-HJ brecht.chadwyck.com
-
-Title C19: The Nineteenth Century Index
-URL http://c19index.chadwyck.com/
-HJ Host c19index.chadwyck.com
-
-Title Chadwyck Digitale Bibliothek Deutscher Klassiker
-URL http://klassiker.chadwyck.com
-HJ klassiker.chadwyck.com
-
-Option CookiePassThrough
-Title Early English Books Online
-URL http://eebo.chadwyck.com
-DJ eebo.chadwyck.com
-Find &url=http://
-Replace &url=http://^A
-Find "eebo.chadwyck.com" == document.location.host
-Replace true
-Option Cookie 
-
-Title Goethes Werke im WWW. Weimarer Ausgabe
-URL http://goethe.chadwyck.com
-HJ goethe.chadwyck.com
-
-Title Chadwyck Historical Newspapers
-URL http://history.chadwyck.co.uk
-HJ history.chadwyck.co.uk
-
-Title Chadwyck International Index to Black Periodicals (IIBP)
-URL http://iibp.chadwyck.com
-HJ iibp.chadwyck.com
-
-Title Chadwyck Literature Collections
-URL http://collections.chadwyck.com
-HJ collections.chadwyck.com
-HJ collections.chadwyck.co.uk
-Find + sDomain +
-Replace + 'collections.chadwyck.com' +
-
-Title Chadwyck Nineteenth Century Short Title Catalogue
-URL http://nstc.chadwyck.com/
-HJ nstc.chadwyck.com
-
-Title Chadwyck Patrologia Latina
-URL http://pld.chadwyck.co.uk
-HJ pld.chadwyck.co.uk
-HJ pld.chadwyck.com
-
-Title CultureGrams
-URL https://online.culturegrams.com
-HJ  http://online.culturegrams.com
-HJ online.culturegrams.com
-HJ www.culturegrams.com
-DJ culturegrams.com
-
-Title Current History (updated 20191016) - Single Journal
-# Updated 10/17/19 based on OCLC Database Stanza for Current History (updated 2019-10-16)
-URL http://www.currenthistory.com/
-HJ www.currenthistory.com
-DJ currenthistory.com
-
-Title DIDO (Digital Images Delivered Online)
-# Unclear if this site is still only available to IU students, faculty, and staff (last update on website from 5/17/17). Maintaining stanza for now.
-URL http://dido.dlib.indiana.edu/
-URL http://www.dlib.indiana.edu/collections/dido/
-HJ dido.dlib.indiana.edu
-DJ dlib.indiana.edu
-
-# DOI system moved to common stanza
-
-# Scholarly Publishing Collective moved to common stanza: scholarly-publishing-collective.txt
-
+# EBSCO moved to common stanza: ebscohost.txt
+# Elsevier ScienceDirect and Scopus moved to common stanza: elsevier.txt
+# Emerald moved to common stanza: emerald.txt
 # ERIC moved to common stanza: eric-gov.txt
+# Factiva moved to common stanza: factiva.txt
+# Films on Demand moved to common stanza: filmsondemand.txt
+# Foundation Center moved to common stanza: candid.txt
+# Fulcrum moved to common stanza: fulcrum.txt
+# Gale moved to common stanza: gale.txt
+# Get FTR moved to common stanza: getftr.txt
+# Google Scholar moved to common stanza: google-scholar.txt
+# Guilford press moved to common stanza: guilfordpub.txt
+# Hein Online moved to common stanza: heinonline.txt
+# Homeland Security Digital Library moved to common stanza: homeland-security-digital-library.txt
+# IBISWorld moved to common stanza: ibisworld.txt
+# IG Publishing moved to common stanza: igpubebook.txt
+# INSPIRE moved to common stanza: inspire.txt
+# IPA Source moved to common stanza ipasource.txt
+# JAMA moved to common stanza: jamanetwork.txt
 
-Title Foundation Center
-# Updated 4/9/19 (added 9/19/2017)
-URL https://fconline.foundationcenter.org/ipl.php
-URL https://maps.foundationcenter.org/
-URL https://gtionline.foundationcenter.org/
-HJ https://fconline.foundationcenter.org
-HJ https://maps.foundationcenter.org/
-HJ https://gtionline.foundationcenter.org/
-HJ fconline.foundationcenter.org
-HJ maps.foundationcenter.org/
-HJ gtionline.foundationcenter.org/
-DJ fconline.foundationcenter.org
-DJ maps.foundationcenter.org/
-DJ gtionline.foundationcenter.org/
-DJ foundationcenter.org
-
-# Fulcrum moved to common stanza
-
-# Google Scholar moved to common stanza
-
-Title Homeland Security Digital Library
-# This is not in the OCLC Database Stanzas as of 8/29/18
-# Even though this is a freely available database, IP ranges must still be registered for access
-Host https://www.hsdl.org 
-
-# Updated per ralight 2023-12-06
-AnonymousURL +https://content.ibisworld.com/umbraco/api/*
-Title IBISWorld (OCLC IncludeFile updated 20231129)
-URL https://my.ibisworld.com
-HJ my.ibisworld.com
-HJ www.ibisworld.com
-HJ https://www.ibisworld.com
-HJ ibisworld.com
-HJ https://ibisworld.com
-HJ www.ibisworld.com.au
-HJ https://www.ibisworld.com.au
-HJ www.ibisworld.ca
-HJ https://www.ibisworld.ca
-HJ www.ibisworld.co.uk
-HJ https://www.ibisworld.co.uk
-HJ www.ibisworld.de
-HJ https://www.ibisworld.de
-HJ www.ibisworld.cn
-HJ https://www.ibisworld.cn
-HJ www.procurementiq.com
-HJ https://www.procurementiq.com
-HJ clients1.ibisworld.com
-HJ https://clients1.ibisworld.com
-HJ clients1.ibisworld.com.au
-HJ https://clients1.ibisworld.com.au
-HJ clients1.ibisworld.co.uk
-HJ https://clients1.ibisworld.co.uk
-HJ clients1.ibisworld.ca
-HJ https://clients1.ibisworld.ca
-HJ clients1.ibisworld.de
-HJ https://clients1.ibisworld.de
-HJ client.procurementiq.com
-HJ https://client.procurementiq.com
-HJ https://content.ibisworld.com
-HJ content.ibisworld.com
-DJ ibisworld.com
-DJ ibisworld.com.au
-DJ ibisworld.com.cn
-DJ ibisworld.co.uk
-DJ ibisworld.de
-DJ ibisworld.ca
-DJ procurementiq.com
-AnonymousURL -*
-
-# INSPIRE moved to common stanza
-
+# Last reviewed by ralight 2026-11-05
 Title Journal on Excellence in College Teaching (updated 20200221)
 URL http://miamioh.edu/ject
 HJ http://celt.miamioh.edu
@@ -489,16 +83,9 @@ HJ https://celt.miamioh.edu
 HJ miamioh.edu
 DJ miamioh.edu
 
-HTTPHeader -request -process X-Requested-With
-Title JSTOR Aluka
-# Updated 7/30/21 based on OCLC Database Stanza for JSTOR (20210726)
-URL http://www.aluka.org/
-HJ https://www.aluka.org
-HJ www.aluka.org
-HJ aluka.org
-HJ https://aluka.org
-DJ aluka.org
+# JSTOR moved to common stanza: jstor.txt
 
+# Last reviewed by ralight 2026-11-05
 Title Kaltura
 URL http://www.kaltura.com/
 DJ www.kaltura.com
@@ -506,27 +93,30 @@ DJ cdnapi.kaltura.com
 Find "host":"cdnapi.kaltura.com"
 Replace "host":"^pcdnapi.kaltura.com^"
 
+# Last reviewed by ralight 2026-11-05
+# Kanopy Streaming should be listed above Kanopy
 Title Kanopy Streaming (updated 20180418)
-#Added 7/31/20 based on OCLC Database Stanza for Kanopy (updated 20180418)
 URL http://ius.kanopystreaming.com
 H https://ius.kanopystreaming.com
 D kanopystreaming.com
 
+# Last reviewed by ralight 2026-11-05
 Title Kanopy (updated 20180418)
 URL http://ius.kanopy.com
 H https://ius.kanopy.com
 D kanopy.com
 
-# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza
+# Learning Express Library 3.0 - PrepStep for Colleges moved to common stanza: learning-express-library.txt
+# Liebert moved to common stanza: liebert.txt
+# Loeb Classical Library moved to common stanza: loebclassical.txt
+# MathSciNet moved to common stanza: mathscinet.txt
+# McGraw Hill Medical moved to common stanza: mcgraw_hill_medical.txt
+# Mergent moved to comment stanza: mergent.txt
+# MIT Press moved to common stanza: mitpressdirect.txt
+# Mometrix Library moved to common stanza: mometrix.txt
+# Nature Journals moved to common stanza: nature.txt
 
-# Liebert moved to common_stanza
-
-# MathSciNet moved to common_stanzas
-
-# Scientific American moved to common stanza: scientific-american.txt
-
-
-# Updated per ralight 2025-06-04
+# Last reviewed by ralight 2026-11-05
 Title Naxos Music Library (updated 20250530)
 URL https://ius.naxosmusiclibrary.com
 HJ ius.naxosmusiclibrary.com
@@ -549,240 +139,61 @@ NeverProxy videostream2.naxosmusiclibrary.com
 ## Naxos Music Library Aux Audio CDN Location
 NeverProxy cp82361.edgefcs.net
 
-# Access NYT moved to common stanza: access-nyt.txt
-# Newsbank/Readex Databases moved to common_stanza
-
-# OCLC FirstSearch moved to common_stanza
-
-Title Wolters Kluwer
-URL https://login.wolterskluwer.com
-HJ login.wolterskluwer.com
-HJ http://login.wolterskluwer.com
-HJ wolterskluwer.com
-HJ cdn.wolterskluwer.io
-DJ wolterskluwer.io
-DJ wolterskluwer.com
-
-# Oxford Academic moved to common stanza
-
-# Oxford Music Online moved to common stanza
-
-# Oxford Reference moved to common stanza
-
-Title Oxford Scholarship Online - OSO (updated 20190410)
-# updated 04/16/19 based on OCLC Stanza for Oxford Scholarship Online - OSO (updated 20190410)
-URL https://www.oxfordscholarship.com
-HJ https://oxfordscholarship.com
-HJ oxfordscholarship.com
-HJ www.oxfordscholarship.com
-DJ oxfordscholarship.com
-
-# Philosophy Documentation Center moved to common stanza: philosophy-documentation-center.txt
-
-# Project Muse moved to common stanza
-
-# Updated per ralight 2023-10-06
-Title Ebook Central Proxied
-URL https://ebookcentral.proquest.com/lib/ius
-HJ http://ebookcentral.proquest.com/lib/ius
-HJ https://ebookcentral.proquest.com/lib/ius
-DJ ebookcentral.proquest.com
-NeverProxy acs.ebookcentral.proquest.com
-
-Title ebrary
-# Added 8/27/19 due to a needhost error - URLs redirect to Proquest Ebook Central
-URL https://site.ebrary.com/lib/iuse
-HJ http://site.ebrary.com/lib/iuse
-DJ site.ebrary.com
-
-Title -hide Ebook Central reroute
-NeverProxy ebookcentral.proquest.com
-NeverProxy ius.ebookcentral.proquest.com
-NeverProxy acs.ebookcentral.proquest.com
-
-# Psychotherapy.net moved to common stanza
-
-# PubMed moved to common stanza
-
-T Reprints Desk
-U https://www.reprintsdesk.com/landing/scholar.aspx
-D reprintsdesk.com
-H reprintsdesk.com
-
-# Title ScienceDirect 
-# See stanza Elsevier ScienceDirect
-
-# AIPP Publishing Platform (formerly Scitation) moved to common stanza
-
-# Title SCOPUS
-# See stanza Elsevier SCOPUS
-
-# Skillport8i moved to common stanza: skillport8i.txt
-
-#This stanza is required to resolve the Cookie Banner popup issue IncludeFile databases/cookielaw.txt
-
-# Statista stanza replaced by new directive in config.txt
-
-# Added per kabmoore 2025-09-05
-#  No OCLC stanza, just using website URL
-Title Studio Potter Journal
-URL https://studiopotter.org/
-HJ https://studiopotter.org/
-HJ studiopotter.org
-DJ studiopotter.org
-
-# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
-# Taylor & Francis moved to common stanza: taylor-francis-online.txt
-# Taylor Francis eBooks moved to common stanza: taylor-francis-ebooks.txt
-# TeachingBooks moved to common stanza
-
-Title Book Connections
-URL https://www.bookconnections.org
-HJ bookconnections.org
-HJ www.bookconnections.org
-HJ https://www.bookconnections.org
-
-# University of California Press moved to common stanza: university-california-press.txt
-
-# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
-
-# Updated per ralight 2021-11-30
-Title University Press Scholarship Online (updated 20211124)
-URL https://www.universitypressscholarship.com/
-HJ britishacademy.universitypressscholarship.com
-HJ cairo.universitypressscholarship.com
-HJ california.universitypressscholarship.com
-HJ chicago.universitypressscholarship.com
-HJ columbia.universitypressscholarship.com
-HJ cornell.universitypressscholarship.com
-HJ edinburgh.universitypressscholarship.com
-HJ florida.universitypressscholarship.com
-HJ fordham.universitypressscholarship.com
-HJ hawaii.universitypressscholarship.com
-HJ hongkong.universitypressscholarship.com
-HJ illinois.universitypressscholarship.com
-HJ kentucky.universitypressscholarship.com
-HJ liverpool.universitypressscholarship.com
-HJ manchester.universitypressscholarship.com
-HJ minnesota.universitypressscholarship.com
-HJ mississippi.universitypressscholarship.com
-HJ mitpress.universitypressscholarship.com
-HJ northcarolina.universitypressscholarship.com
-HJ nyu.universitypressscholarship.com
-HJ oxford.universitypressscholarship.com
-HJ policypress.universitypressscholarship.com
-HJ princeton.universitypressscholarship.com
-HJ stanford.universitypressscholarship.com
-HJ universitypressscholarship.com
-HJ yale.universitypressscholarship.com
-HJ www.britishacademy.universitypressscholarship.com
-HJ www.cairo.universitypressscholarship.com
-HJ www.california.universitypressscholarship.com
-HJ www.chicago.universitypressscholarship.com
-HJ www.columbia.universitypressscholarship.com
-HJ www.cornell.universitypressscholarship.com
-HJ www.edinburgh.universitypressscholarship.com
-HJ www.florida.universitypressscholarship.com
-HJ www.fordham.universitypressscholarship.com
-HJ www.hawaii.universitypressscholarship.com
-HJ www.hongkong.universitypressscholarship.com
-HJ www.illinois.universitypressscholarship.com
-HJ www.kentucky.universitypressscholarship.com
-HJ www.liverpool.universitypressscholarship.com
-HJ www.manchester.universitypressscholarship.com
-HJ www.minnesota.universitypressscholarship.com
-HJ www.mississippi.universitypressscholarship.com
-HJ www.mitpress.universitypressscholarship.com
-HJ www.northcarolina.universitypressscholarship.com
-HJ www.nyu.universitypressscholarship.com
-HJ www.oxford.universitypressscholarship.com
-HJ www.policypress.universitypressscholarship.com
-HJ www.princeton.universitypressscholarship.com
-HJ www.stanford.universitypressscholarship.com
-HJ www.universitypressscholarship.com
-HJ www.yale.universitypressscholarship.com
-HJ https://britishacademy.universitypressscholarship.com
-HJ https://cairo.universitypressscholarship.com
-HJ https://california.universitypressscholarship.com
-HJ https://chicago.universitypressscholarship.com
-HJ https://columbia.universitypressscholarship.com
-HJ https://cornell.universitypressscholarship.com
-HJ https://edinburgh.universitypressscholarship.com
-HJ https://florida.universitypressscholarship.com
-HJ https://fordham.universitypressscholarship.com
-HJ https://hawaii.universitypressscholarship.com
-HJ https://hongkong.universitypressscholarship.com
-HJ https://illinois.universitypressscholarship.com
-HJ https://kentucky.universitypressscholarship.com
-HJ https://liverpool.universitypressscholarship.com
-HJ https://manchester.universitypressscholarship.com
-HJ https://minnesota.universitypressscholarship.com
-HJ https://mississippi.universitypressscholarship.com
-HJ https://mitpress.universitypressscholarship.com
-HJ https://northcarolina.universitypressscholarship.com
-HJ https://nyu.universitypressscholarship.com
-HJ https://oxford.universitypressscholarship.com
-HJ https://policypress.universitypressscholarship.com
-HJ https://princeton.universitypressscholarship.com
-HJ https://stanford.universitypressscholarship.com
-HJ https://universitypressscholarship.com
-HJ https://yale.universitypressscholarship.com
-HJ https://www.britishacademy.universitypressscholarship.com
-HJ https://www.cairo.universitypressscholarship.com
-HJ https://www.california.universitypressscholarship.com
-HJ https://www.chicago.universitypressscholarship.com
-HJ https://www.columbia.universitypressscholarship.com
-HJ https://www.cornell.universitypressscholarship.com
-HJ https://www.edinburgh.universitypressscholarship.com
-HJ https://www.florida.universitypressscholarship.com
-HJ https://www.fordham.universitypressscholarship.com
-HJ https://www.hawaii.universitypressscholarship.com
-HJ https://www.hongkong.universitypressscholarship.com
-HJ https://www.illinois.universitypressscholarship.com
-HJ https://www.kentucky.universitypressscholarship.com
-HJ https://www.liverpool.universitypressscholarship.com
-HJ https://www.manchester.universitypressscholarship.com
-HJ https://www.minnesota.universitypressscholarship.com
-HJ https://www.mississippi.universitypressscholarship.com
-HJ https://www.mitpress.universitypressscholarship.com
-HJ https://www.northcarolina.universitypressscholarship.com
-HJ https://www.nyu.universitypressscholarship.com
-HJ https://www.oxford.universitypressscholarship.com
-HJ https://www.policypress.universitypressscholarship.com
-HJ https://www.princeton.universitypressscholarship.com
-HJ https://www.stanford.universitypressscholarship.com
-HJ https://www.universitypressscholarship.com
-HJ https://www.yale.universitypressscholarship.com
-HJ https://oxfordscholarship.com
-HJ https://www.oxfordscholarship.com
-HJ oxfordscholarship.com
-HJ www.oxfordscholarship.com
-DJ oxfordscholarship.com
-DJ universitypressscholarship.com
-
-# Value Line moved to common stanza
-
-#  Wiley Digital Archives moved to common stanza
-
-Title WMS
-HTTPHeader -request -process timezone
-HTTPHeader -request -process locale
-URL https://973.account.worldcat.org/account/route/wsill/openurl?
-HJ http://973.account.worldcat.org/account/route/wsill/openurl?
-DJ account.worldcat.org
-
+# New England Journal of Medicine moved to common stanza: nejm.txt
+# Newsbank/Readex Databases moved to common stanza: newsbank-readex.txt
+# Ovid moved to common stanza: ovid.txt
+# OCLC FirstSearch moved to common stanza: oclc-firstsearch.txt
 # OCLC WorldCat.org moved to common stanza: worldcat-org.txt
+# Oxford Academic moved to common stanza: oxford-academic.txt
+# Oxford English Dictionary moved to common stanza: oed.txt
+# Oxford Art moved to common stanza: oxford-art-online.txt
+# Oxford Music Online moved to common stanza: oxford-music-online.txt
+# Oxford Reference moved to common stanza: oxford-reference.txt
+# Oxford Scholarship Online moved to common stanza: oxford-academic.txt
+# Philosophy Documentation Center moved to common stanza: philosophy-documentation-center.txt
+# Proceedings of the National Academy of Sciences (PNAS) moved to common stanza: pnas.txt
+# Project Muse moved to common stanza: project-muse.txt
+# Psychotherapy.net moved to common stanza: psychotherapy-net.txt
+# PubMed moved to common stanza: pubmed.txt
 
-Title WorldShare ILL Form (Added 20230814)
-HTTPHeader -request -process timezone
-HTTPHeader -request -process locale
-URL https://[regid].account.worldcat.org/account/route/wsill/openurl?
-HJ http://[regid].account.worldcat.org
-DJ account.worldcat.org
-
+# Last reviwed by ralight 2026-11-05
 Title RMA's eStatement Studies
 # Added 10/16/2024 based on email from Jorge Mera at RMA
 URL https://eStatementstudies.rmahq.org/IPLogin
 HJ eStatementstudies.rmahq.org
 HJ https://eStatementstudies.rmahq.org
 DJ eStatementstudies.rmahq.org
+
+# Sage moved to common stanza: sage.txt
+# Scientific American moved to common stanza: scientific-american.txt
+# Scifinder moved to common stanza: scifinder.txt
+# Scholarly Publishing Collective moved to common stanza: scholarly-publishing-collective.txt
+# Skillport8i moved to common stanza: skillport8i.txt
+
+# Last reviwed by ralight 2026-11-05
+Title Studio Potter Journal
+URL https://studiopotter.org/
+HJ https://studiopotter.org/
+HJ studiopotter.org
+DJ studiopotter.org
+
+# Springer Nature moved to common stanza: springerlink.txt
+# Swank Digital Campus moved to common stanza: swank-digital-campus.txt
+# Taylor & Francis moved to common stanza: taylor-francis-online.txt
+# Taylor Francis eBooks moved to common stanza: taylor-francis-ebooks.txt
+# TeachingBooks moved to common stanza: teachingbooks.txt
+# Third Iron complete moved to common stanza: browzine_thirdiron.txt
+# University of California Press moved to common stanza: university-california-press.txt
+# University of Chicago Press Journals moved to common stanza: university-chicago-press-journals.txt
+# University Press Scholarship Online moved to common stanza: oxford-academic.txt
+# Value Line moved to common stanza: value-line.txt
+# Wiley Digital Archives moved to common stanza: wiley-digital-archive.txt
+# Wiley Online Library moved to common stanza: wiley_online.txt
+
+# Last reviewed by ralight 2026-11-05
+Title WMS (WorldShare ILL form)
+HTTPHeader -request -process timezone
+HTTPHeader -request -process locale
+URL https://973.account.worldcat.org/account/route/wsill/openurl?
+HJ http://973.account.worldcat.org/account/route/wsill/openurl?
+DJ account.worldcat.org
