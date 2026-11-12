@@ -20,6 +20,15 @@ FormVariable returnPage
 FormVariable token
 HTTPHeader -global -response -block X-Frame-Options
 
+# Temporarily re-added per Kate Ziady by ralight 2026-11-12
+Title EBL
+AllowVars u
+EncryptVar u iusoutheastlibrary
+EBLSecret 6315ELYR4882
+URL http://www.ius.eblib.com
+URL http://ius.eblib.com
+DJ eblib.com
+
 INCLUDEFILE ../common_stanzas/aacrjournals.txt
 INCLUDEFILE ../common_stanzas/candid.txt
 INCLUDEFILE ../common_stanzas/harvard-educational-review.txt
