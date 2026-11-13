@@ -57,7 +57,7 @@ NeverProxy acs.ebookcentral.proquest.com
 # Added temporarily per Kate Ziady by ralight 2026-11-12
 Title -hide Ebook Central reroute (updated 20170908)
 NeverProxy ebookcentral.proquest.com
-NeverProxy YOURSITE.ebookcentral.proquest.com
+NeverProxy ius.ebookcentral.proquest.com
 NeverProxy acs.ebookcentral.proquest.com
 
 # EBSCO moved to common stanza: ebscohost.txt
